@@ -1,0 +1,28 @@
+# chat-gpt-website-descriptions
+
+The add addTokenDescription.py script reads the data/token.json file, and creates a CHAT GPT Query with
+information from the first 3 Google results. (for each tokenName and token field)
+
+This Script requires Google Chrome, since the Google Search is done via headless Chrome browser. 
+
+To run the script
+
+
+1. you can install the needed python packages using my requirements.txt file or 
+check the imported packages in the python script. 
+
+# pip install -r requirements.txt
+
+2. update your chatGPT session token: 
+
+Insctruction here: https://github.com/acheong08/ChatGPT/wiki/Setup
+but place the value on the top of the script 
+
+Also the requested Interval to ChatGPT can be adapted, if needed. This is the inteval between our request to CHATGPT. 
+
+3. Run script 
+
+python addTokenDescription.py
+
+
+Please note that the success of the script is mainly depented from the load of CHATGPT (which is overloaded very often)
