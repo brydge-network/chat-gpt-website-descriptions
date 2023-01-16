@@ -1,0 +1,34 @@
+[
+    {
+        "chain": "ethereum",
+        "chainId": 1,
+        "tokenAddress": "NATIVE",
+        "token": "ETH",
+        "tokenName": "Ether",
+        "tokenNameLower": "ether"
+    },
+    {
+        "chain": "optimism",
+        "chainId": 10,
+        "tokenAddress": "NATIVE",
+        "token": "ETH",
+        "tokenName": "Ether",
+        "tokenNameLower": "ether"
+    },
+    {
+        "chain": "polygon",
+        "chainId": 137,
+        "tokenAddress": "NATIVE",
+        "token": "MATIC",
+        "tokenName": "Matic",
+        "tokenNameLower": "matic"
+    },
+    {
+        "chain": "arbitrum",
+        "chainId": 42161,
+        "tokenAddress": "NATIVE",
+        "token": "ETH",
+        "tokenName": "Ether",
+        "tokenNameLower": "ether"
+    }
+]

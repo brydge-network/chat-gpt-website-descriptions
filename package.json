@@ -1,0 +1,22 @@
+{
+    "name": "@brydge-network/website-data",
+    "version": "1.0.6",
+    "main": "build/brydge.websitedata.json",
+    "scripts": {
+        "test": "mocha",
+        "validate": "node src/validate.js",
+        "build": "rimraf build && mkdir -p build && node src/write.js > build/brydge.websitedata.json",
+        "prepublishOnly": "npm run build"
+    },
+    "files": [
+        "build/brydge.websitedata.json"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brydge-network/website-data.git"
+    },
+    "devDependencies": {
+        "rimraf": "^3.0.2"
+    },
+    "packageManager": "yarn@3.2.1"
+}
